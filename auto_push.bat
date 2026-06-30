@@ -7,7 +7,7 @@ echo.
 
 :loop
 echo [%time%] Checking for changes...
-git add .
+git add -A
 git commit -m "Auto-commit: update DSA practice" >nul 2>&1
 git push origin main >nul 2>&1
 
