@@ -11,5 +11,5 @@ git add .
 git commit -m "Auto-commit: update DSA practice" >nul 2>&1
 git push origin main >nul 2>&1
 
-timeout /t 60*60*4 /nobreak >nul
+timeout /t 14400 /nobreak >nul
 goto loop
