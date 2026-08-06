@@ -1,7 +1,7 @@
 @echo off
 cd /d "C:\Users\hp\OneDrive\Desktop\DSA"
 echo Starting Auto-Push script for DSA...
-echo It will check and push your code to GitHub every 30 minutes.
+echo It will check and push your code to GitHub every 10 minutes.
 echo Keep this window open while you are coding.
 echo Press Ctrl+C to stop.
 echo.
@@ -12,5 +12,5 @@ git add .
 git commit -m "Auto-commit: update DSA practice" >nul 2>&1
 git push origin main >nul 2>&1
 
-timeout /t 1800 /nobreak >nul
+timeout /t 600 /nobreak >nul
 goto loop
