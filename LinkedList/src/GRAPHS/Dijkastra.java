@@ -77,7 +77,7 @@ public class Dijkastra {
             }
         }
         for(int i = 0; i< V; i++){
-            System.out.println(dist[i] +"");
+            System.out.print(dist[i] + " ");
 
         }
         System.out.println();
