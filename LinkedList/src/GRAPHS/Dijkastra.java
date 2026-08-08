@@ -77,13 +77,16 @@ public class Dijkastra {
             }
         }
         for(int i = 0; i< V; i++){
-            S
+            System.out.println(dist[i] +"");
+
         }
+        System.out.println();
     }
     
     public static void main(String[] args) {
         int V = 6;
         ArrayList<Edge> graph[] = new ArrayList[V];
         createGraph(graph);
+        dijkastra(graph, 0, V);
     }
 }
